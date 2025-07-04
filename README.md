@@ -384,3 +384,69 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 **Smart Transformer**: Where intelligence meets adaptability. 🧠⚡
+
+# SmartTransformer: Multilingual Translation Benchmarking Pipeline
+
+## 🚀 Overview
+
+This project demonstrates a fully automated pipeline for benchmarking the custom SmartTransformer model on tough English→Hindi and English→Marathi translation tasks. It includes data preparation, tokenizer training, model training, benchmarking, and dashboard visualization.
+
+## 📊 Features
+
+- **Automated end-to-end pipeline**: Data → Tokenizer → Model → Benchmark → Dashboard
+- **Batch translation & evaluation**: BLEU, ROUGE, speed metrics
+- **Easy extensibility**: Plug in real data, more languages, or baseline models
+- **Modern dashboard**: Visualizes all results for easy sharing
+
+## 🛠️ Quickstart
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/smart_transformer.git
+   cd smart_transformer
+   ```
+
+2. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Run the full pipeline**
+   ```bash
+   python run_translation_pipeline.py
+   ```
+
+4. **View results**
+   - Open `results_dashboard.html` in your browser.
+
+## 📝 Customization
+
+- **Plug in real data**: Replace `data/translation_benchmark_en_hi_mr.jsonl` with your own parallel corpus.
+- **Train for real translation**: Update the training loop in `run_translation_pipeline.py` for multi-epoch, sequence-to-sequence training.
+- **Add more languages**: Expand the data and tokenizer as needed.
+
+## 📈 Example Results
+
+| Direction | BLEU | ROUGE-1 | ROUGE-L | Speed (ms/sentence) |
+|-----------|------|---------|---------|---------------------|
+| EN→HI     | 0.00 | 0.00    | 0.00    | 34.29               |
+| EN→MR     | 0.00 | 0.00    | 0.00    | 21.69               |
+
+*(Demo results; plug in real data for meaningful scores!)*
+
+## 🙏 OM NAMAH SHIVAY
+
+---
+
+## Hosting Your Dashboard Online
+
+- **GitHub Pages**: Commit your `results_dashboard.html` to the `gh-pages` branch or use a docs/ folder.
+- **Netlify/Vercel**: Drag and drop the HTML file or connect your repo for instant deployment.
+
+---
+
+## Want More?
+
+- Add baseline models (e.g., HuggingFace mBART) for comparison.
+- Visualize attention maps or example translations.
+- Automate with GitHub Actions for CI/CD.
