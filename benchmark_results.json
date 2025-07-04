@@ -1,10 +1,10 @@
 {
   "SmartTransformer": {
-    "loss": 5.244420051574707,
-    "time_per_batch_ms": 11.442365646362305
+    "loss": 5.2400980472564695,
+    "time_per_batch_ms": 4.793381690979004
   },
   "PyTorch Transformer": {
-    "loss": 7.08914960861206,
-    "time_per_batch_ms": 4.209074974060059
+    "loss": 7.062067995071411,
+    "time_per_batch_ms": 3.557462692260742
   }
 }

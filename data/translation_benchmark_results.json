@@ -1,0 +1,18 @@
+{
+  "hi": {
+    "metrics": {
+      "BLEU": 0.0,
+      "ROUGE-1": 0.0,
+      "ROUGE-L": 0.0
+    },
+    "speed_ms_per_sent": 34.287611643473305
+  },
+  "mr": {
+    "metrics": {
+      "BLEU": 0.0,
+      "ROUGE-1": 0.0,
+      "ROUGE-L": 0.0
+    },
+    "speed_ms_per_sent": 21.687030792236328
+  }
+}
